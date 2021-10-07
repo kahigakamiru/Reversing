@@ -1,0 +1,11 @@
+//Let’s say num = 8610
+// We convert the num to string → num becomes ‘8610’
+// We split ‘8610’ → it becomes [‘8’, ‘6’, ‘1’, '0']
+// We reverse the array → it becomes [‘0’, ‘1’, ‘6’, '8']
+// We join the array to form a string → it becomes ‘0168’
+// Lastly we parse the string into a Int and returns it → 0168
+//Rules/Limitations:Any leading zeroes will be removed.
+
+// const num = 8601;
+// const reverse = (num) => parseInt(String(num).split("").reverse().join(""), 10);
+// console.log(reverse(num));
